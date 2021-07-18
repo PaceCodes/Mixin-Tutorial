@@ -112,11 +112,7 @@ The main part we want to focus on is the function `injectIntoClassLoader`.
 
 We are first initializing the MixinBootstrap. Then, we are adding our Mixin configuration. We are also switching the obfuscation context to notch's mappings.
 
-# Resources
-More info on Mixins can be found with these links:
-Javadocs: https://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/ (The javadocs, pretty self explanatory)
-Wiki: https://github.com/SpongePowered/Mixin/wiki (great for learning what Mixins even are)
-Discord: https://discord.gg/sponge (Get help with Mixins here)
+
 
 # MIXIN Cheatsheet
 
@@ -258,3 +254,8 @@ public abstract class SomeMixin {
 }
 ```
 These are basics of SpongePowered mixins.You can find more about it in their documentations.
+Resources
+More info on Mixins can be found with these links:
+Javadocs: https://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/
+Wiki: https://github.com/SpongePowered/Mixin/wiki
+Discord: https://discord.gg/sponge
