@@ -161,7 +161,7 @@ While you can use lambdas, anonymous and inner classes inside mixins, you cannot
 
 This means expressions like the following will cause mixins to fail horribly and bring death and destruction upon all that attempt to use Sponge.
 
-```javaa
+```java
 return new Collection<ItemStack>() {
     @Override
     public Iterator<ItemStack> iterator() {
