@@ -148,7 +148,7 @@ public class MixinMinecraft {
     }
 }
 ```
-Thanks ddozzi#6190 for letting me know that tutorial could be better.
+Thanks ddozzi#6190 for that videos. 
 
 
 
