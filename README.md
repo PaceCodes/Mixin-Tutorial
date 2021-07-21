@@ -254,8 +254,9 @@ public abstract class SomeMixin {
 }
 ```
 These are basics of SpongePowered mixins.You can find more about it in their documentations.
-Resources
-More info on Mixins can be found with these links:
+Resources. 
+
+# More info on Mixins can be found with these links:
 Javadocs: https://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/
 Wiki: https://github.com/SpongePowered/Mixin/wiki
 Discord: https://discord.gg/sponge
