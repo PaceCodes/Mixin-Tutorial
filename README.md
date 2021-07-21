@@ -112,19 +112,16 @@ Create a new package named `mixins` inside the previous pacakge then create a ne
 Replace the `example` at `Mixins.addConfiguration("mixins.example.json");` (inside your tweaker) with your client name or whatever you named your package.
 
 
-So far, your project should look something like this: 
-
-![Screen Shot 2021-07-21 at 2 28 07 AM](https://user-images.githubusercontent.com/69029714/126441740-f74f0274-1c95-4f0d-b609-fd847934db75.png)
 
 
 
-## Mixin Time!
+## Coding Mixins
 
 Now it's time to make your first mixin!
 
 Create a new file named whatever was inside your `Mixins.addConfiguration("mixins.example.json");` inside the resource folder.
 
-![Screen Shot 2021-07-21 at 2 36 44 AM](https://user-images.githubusercontent.com/69029714/126442702-69b7a10f-67be-4dea-9216-366b89469599.png)
+
 
 Then, copy the json from ![here]("https://github.com/PaceCodes/Mixin-Tutorial-With-Cheatsheet/blob/main/mixins.example.json") into the json file you just created.
 
@@ -134,9 +131,9 @@ Create a package named `client` inside the package where your tweaker is located
 
 Then, inside that `client` package, create a java file named `MixinMinecraft`
 
-![Screen Shot 2021-07-21 at 2 39 38 AM](https://user-images.githubusercontent.com/69029714/126443045-7ea64cde-02c6-423a-ae11-704d9292b7b6.png)
 
-then add this mixin code: 
+
+then code mixins (example):
 
 ```java
 @Mixin(Minecraft.class)
@@ -147,7 +144,7 @@ public class MixinMinecraft {
     }
 }
 ```
-Thanks ddozzi#6190 for that videos. 
+
 
 
 
@@ -222,11 +219,7 @@ The main part we want to focus on is the function `injectIntoClassLoader`.
 
 We are first initializing the MixinBootstrap. Then, we are adding our Mixin configuration. We are also switching the obfuscation context to notch's mappings.
 
-# Resources
-More info on Mixins can be found with these links:
-Javadocs: https://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/ (The javadocs, pretty self explanatory)
-Wiki: https://github.com/SpongePowered/Mixin/wiki (great for learning what Mixins even are)
-Discord: https://discord.gg/sponge (Get help with Mixins here)
+ 
 
 # MIXIN Cheatsheet
 
