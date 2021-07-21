@@ -258,5 +258,7 @@ Resources.
 
 # More info on Mixins can be found with these links:
 Javadocs: https://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/
+
 Wiki: https://github.com/SpongePowered/Mixin/wiki
+
 Discord: https://discord.gg/sponge
