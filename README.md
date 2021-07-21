@@ -276,7 +276,7 @@ While you can use lambdas, anonymous and inner classes inside mixins, you cannot
 
 This means expressions like the following will cause mixins to fail horribly and bring death and destruction upon all that attempt to use Sponge.
 
-```javaa
+```java
 return new Collection<ItemStack>() {
     @Override
     public Iterator<ItemStack> iterator() {
@@ -369,3 +369,9 @@ public abstract class SomeMixin {
 }
 ```
 These are basics of SpongePowered mixins.You can find more about it in their documentations.
+
+Javadocs: https://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/ (The javadocs, pretty self explanatory)
+
+Wiki: https://github.com/SpongePowered/Mixin/wiki (great for learning what Mixins even are)
+
+Discord: https://discord.gg/sponge (Get help with Mixins here)
