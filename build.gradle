@@ -66,7 +66,8 @@ dependencies {
     embed 'org.slick2d:slick2d-core:1.0.2'
     embed 'com.google.code.gson:gson:2.8.5'
 
-    compile group: 'org.reflections', name: 'reflections', version: '0.9.10'
+    // Example on adding dependencies in gradle 
+	//compile group: 'org.reflections', name: 'reflections', version: '0.9.10'
 }
 
 mixin {
@@ -91,17 +92,14 @@ jar {
         }
     }
     exclude 'META-INF/*.RSA', 'META-INF/*.SF', 'META-INF/*.DSA'
-}
-
-jar {
-    manifest.attributes(
+	
+	manifest.attributes(
             "MixinConfigs": 'mixins.example.json',
             "TweakClass": 'net.example.mixins.ExampleTweaker',
             "TweakOrder": 0,
             "Manifest-Version": 1.0
     )
-
-    configurations.embed.each { dep ->
+	configurations.embed.each { dep ->
         from(project.zipTree(dep)) {
             exclude 'META-INF', 'META-INF/**'
         }
