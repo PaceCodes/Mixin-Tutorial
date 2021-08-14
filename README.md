@@ -367,3 +367,5 @@ Javadocs: https://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/ (The java
 Wiki: https://github.com/SpongePowered/Mixin/wiki (great for learning what Mixins even are)
 
 Discord: https://discord.gg/sponge (Get help with Mixins here)
+
+*special thanks: Ducky, 2xsaiko*
