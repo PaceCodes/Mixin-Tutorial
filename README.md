@@ -237,28 +237,27 @@ _Note: the method modifications listed in these documents are what the code_ eff
 ## Table of Contents
 
 ### Injectors
- - [`@Inject`](inject.md)
- - [`@Inject`, cancellable](inject-cancellable.md)
- - [`@Inject`, locals](inject-locals.md)
- - [`@Redirect`](redirect.md)
- - [`@Overwrite`](overwrite.md)
- - [`@ModifyArg`](modify-arg.md)
- - [`@ModifyArgs`](modify-args.md)
- - ~~[`@ModifyConstant`](modify-constant.md)~~
- - [`@ModifyVariable`](modify-variable.md)
+ - [`@Inject`](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/inject.md)
+ - [`@Inject`, cancellable](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/inject-cancellable.md)
+ - [`@Inject`, locals](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/inject-locals.md)
+ - [`@Redirect`](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/redirect.md)
+ - [`@Overwrite`](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/overwrite.md)
+ - [`@ModifyArg`](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/modify-arg.md)
+ - [`@ModifyArgs`](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/modify-args.md)
+ - [`@ModifyVariable`](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/modify-variable.md)
 
  ### Non-Injectors
   - [`@Invoker`](invoker.md)
-  - [`@Accessor`](accessor.md)
-  - [`@Shadow`](shadow.md)
-  - [`@Shadow`, final](shadow-final.md)
-  - [`@Shadow`, anonymous class](shadow-anonymous.md)
-  - [`@At`](at.md)
-  - [`@Unique`](unique.md)
+  - [`@Accessor`](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/accessor.md)
+  - [`@Shadow`](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/shadow.md)
+  - [`@Shadow`, final](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/shadow-final.md)
+  - [`@Shadow`, anonymous class](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/shadow-anonymous.md)
+  - [`@At`](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/at.md)
+  - [`@Unique`](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/unique.md)
 
 ### Other helpful docs
-  - [Changing your mixin's priority](mixin-priority.md)
-  - [Mixing into classes that may not exist at runtime](pseudo-mixin.md)
+  - [Changing your mixin's priority](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/mixin-priority.md)
+  - [Mixing into classes that may not exist at runtime](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Cheatsheet/pseudo-mixin.md)
 
 
 # MIXINS 
