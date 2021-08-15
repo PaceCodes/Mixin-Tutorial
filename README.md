@@ -64,7 +64,7 @@ Create a new folder where ever you want your client to be.
 Open up IntelliJ. Then click `New Project > Gradle > Next`. Set the `Location` to the folder you just created
 
 
-Copy and paste the ![build.gradle](https://github.com/PaceCodes/Mixin-Tutorial-With-Cheatsheet/blob/main/build.gradle) into your `build.gradle`.
+Copy and paste the ![build.gradle](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/gradle/build.gradle) into your `build.gradle`.
 
 
 Then click the "Load Gradle Changes" Button on the top right.
