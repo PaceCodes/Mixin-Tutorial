@@ -5,7 +5,7 @@ Using Mixins to Mod Minecraft Vanilla.
 
 Sponge requires Java 8 update 20 or higher to run. Sponge **does not** work with Java 9 or above. We also recommend a CPU with a large single core speed and at least 2GB of RAM (higher if you plan to run with mods). We highly recommend using the 64bit Java runtime.
 
-See Installing Java for more help with how to install Java 8.
+See [Installing Java](https://github.com/PaceCodes/Mixin-Tutorial/blob/master/Java/installingJava.md) for more help with how to install Java 8.
 ## Setup
 
 Download the build.gradle in this repository and open it in IntelliJ IDEA.
