@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "net.femboy.pace",
+  "refmap": "mixins.example.json",
+  "verbose": true,
+  "mixins": [
+    "client.MixinMinecraft"
+  ]
+}
