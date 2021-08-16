@@ -232,7 +232,7 @@ What mixins should you use, for what purpose, and how exactly do they affect the
 
 _Note: the method modifications listed in these documents are what the code_ effectively _does, not what the modified bytecode will actually look like. Mixin generates additional methods in the target classes that are inlined here._
 
-(*This Cheatsheet is originally from [(2xsaiko)](https://github.com/2xsaiko/mixin-cheatsheet)
+*This Cheatsheet is originally from [(2xsaiko)](https://github.com/2xsaiko/mixin-cheatsheet)*
 
 ## Table of Contents
 
