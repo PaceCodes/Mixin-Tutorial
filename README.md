@@ -128,7 +128,7 @@ Create a new file named whatever was inside your `Mixins.addConfiguration("mixin
 
 
 
-Then, copy the json from ![here]("https://github.com/PaceCodes/Mixin-Tutorial-With-Cheatsheet/blob/main/mixins.example.json") into the json file you just created.
+Then, copy the json from [here]("https://github.com/PaceCodes/Mixin-Tutorial-With-Cheatsheet/blob/main/mixins.example.json") into the json file you just created.
 
 Ok, now it's time to create an actual mixin.
 
