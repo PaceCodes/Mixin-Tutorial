@@ -32,7 +32,7 @@ minecraft {
     version = "1.8.9"
     tweakClass = "net.example.mixins.ExampleTweaker"
     runDir = "run"
-    mappings = "stable_20"
+    mappings = "stable_22"
     clientJvmArgs = ["-XX:-DisableExplicitGC"]
     makeObfSourceJar = false
 }
