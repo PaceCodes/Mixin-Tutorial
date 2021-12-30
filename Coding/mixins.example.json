@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.pace.client",
+  "refmap": "mixins.example.json",
+  "verbose": true,
+  "mixins": [
+    "mixins.MixinMinecraft"
+  ]
+}
